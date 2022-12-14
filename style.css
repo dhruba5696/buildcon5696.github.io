@@ -1,0 +1,68 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(203, 0, 0);
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousal-item {
+    height: 100vh;
+    max-height: 300px;
+}
+
+.carousal-caption {
+    bottom: 220px;
+    z-index: 2;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: capitalize;
+    color: rgb(248, 178, 14);
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.gallery {
+    border: 10px solid black;
+
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.card:hover {
+    transform: translatey(-10%);
+    transition: 1s;
+}
+
+.heading {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
